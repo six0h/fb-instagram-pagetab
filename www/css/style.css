@@ -1,0 +1,33 @@
+html,body { width: 100%; height: 100%; }
+body { font-size: 80%; }
+html,body,div,span,ul,ol,dl,li,dt,dd,h1,h2,h3,h4,h5,h6,p,em,br,hr { padding: 0; margin: 0; }
+
+a:active { outline: none; }
+a img { border: 0; }
+:-moz-any-link:focus {
+	  outline: none;
+}
+.clear { clear: both; }
+
+#page-wrapper { position: relative; width: 809px; overflow: hidden; margin: 0 auto; background: #fff; font-family: arial, tahoma, verdana, sans-serif; }
+#page-wrapper .page { width: 810px; }
+
+
+.pagination { display: block; list-style: none; width: 100%; margin: 0 auto; }
+.pagination li { float: left; display: block; text-align: center; width: auto; margin: 0 10px;}
+.pagination li a { color: #606060; text-decoration: none; font-size: 1.3em; font-weight: bold; }
+p { display: block; font-size: 1.3em; margin: 10px 0;}
+
+#modal { display: none; }
+
+#modal .left-side { float: left; width: 200px; }
+#modal .right-side { float: right; width: 335px; }
+
+.fb-comments { float: right; }
+#modal h2 { text-align: right; font-family: arial, tahoma, verdana, sans-serif; }
+
+h1 { margin: 20px 0; }
+.entry { float: left; margin: 2px; padding: 2px; border: 1px solid #c0c0c0; }
+.entry:hover { margin-top: 0; margin-bottom: 4px; border: 1px solid #505050; }
+
+.page { position: absolute; float: left; width: 809px; height: 988px; left: 809px; }

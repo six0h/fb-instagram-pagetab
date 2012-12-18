@@ -1,0 +1,40 @@
+html, body { width: 100%; height: 100%; font-size: 100%; font-family: "Myriad Pro", "Trebuchet MS", Arial, Sans-Serif; }
+body { background: url(../img/adminbg.jpg) no-repeat fixed; }
+h3 { margin: 20px 0 10px 30px; font-size: 28px; }
+.rightalign { float: right; }
+.clear { clear: both; }
+
+#wrapper { width: 1000px; margin: 0 auto; }
+
+#header { position: relative; width: 100%; height: 70px; background: #465a3c; color: #f7f4b9; border-radius: 10px; margin-top: 10px; }
+#header #nav { position: absolute; bottom: 0; right: 2%; font-family: "Myriad Pro", "Trebuchet MS", Arial, Sans-serif; font-size: 18px; color: #000; }
+#header #nav a { color: #000; text-decoration: none; }
+#header #nav { list-style-type: none; }
+#header #nav li { display: block; float: left; margin-right: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px; padding: 10px 10px 5px 10px; background: #bdbb92; }
+#header h2 { display: block; position: absolute; font-family: "Myriad Pro", "Trebuchet MS", Arial, Sans-serif; font-size: 30px; margin: 30px 0 0 20px; }
+
+.loginBox { max-width: 300px;  margin: 20px auto; border-radius: 10px; padding: 20px; background: #ecebd6; }
+.loginBox h3 { font-size: 24px; color: #000; font-family: "Myriad Pro", "Trebuchet MS", Arial, Sans-serif; margin: 0 0 20px 0; }
+.loginBox label { width: 100px; text-align: right; margin-right: 10px; padding-top: 15px; float: left; display: block; font-size: 18px; font-family: "Myriad Pro", "Trebuchet MS", Arial, Sans-serif; color: #000; }
+.loginBox input { margin: 10px 0 10px 0; padding: 5px; width: 150px; }
+.loginBox #user_admin { margin-top: 20px; }
+
+.userTable { margin: 0px auto 20px auto; width: 95%; }
+table.userTable th { padding: 5px; font-weight: bold; font-family: "Myriad Pro", "Trebuchet MS", Arial, Sans-Serif; background-color: #dbdac4; border-bottom: 1px solid #c0c0c0; }
+table.userTable td { font-size: 14px; margin: 0px 5px; padding: 5px; border-bottom: 1px solid #c0c0c0; font-weight: normal; }
+table.userTable tr { background: #f6f5dd; margin: 2px 0; }
+table.userTable tr:hover { background-color: #dbdac4; }
+.userTable td,th { text-align: center; }
+
+.fieldDate { width: 100px; }
+
+#id { position: absolute; top: 10px; right: 20px; font-family: "Myriad Pro", "Trebuchet MS", Arial, Sans-Serif; font-size: 14px; }
+#id a { color: #fff; }
+
+a#exportLink { float: left; display: block; margin: 20px 0 0 25px; padding: 10px; color: #000; background-color: #f6f5dd; width: 95px; border-radius: 5px;  }
+a#exportLink:hover { background: #000; color: #f6f5dd; }
+
+.content { display: block; margin: 0px 25px 0px 25px; background: #f6f5dd; padding: 10px; border-radius: 5px; }
+#content { clear: both; }
+
+.notify { background: #290803; padding: 10px; margin: 20px auto; min-width: 200px; max-width: 650px; text-align: center; color: #fff; border-radius: 5px; }

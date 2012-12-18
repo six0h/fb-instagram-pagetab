@@ -1,0 +1,50 @@
+html,body { width: 100%; height: 100%; margin: 0; padding: 0;}
+
+body { background: #b5b5b5; font-size: 100%; font-family: deliciousroman; }
+a { color: #3d8ccf; }
+
+.clear { clear: both; }
+.error { width: 300px; margin: 20px auto; color: #000; background: #a0a0a0; text-align: center; font-size: 1.3em; padding: 10px; }
+
+body>header { position: relative; height: 180px; width: 100%; background: url('../img/headershadow.png') repeat-x 0 70px #edefef; border-bottom: 10px solid #fff; margin: 0; }
+body>header #login-box { position: absolute; top: 20px; left: 40px; }
+
+body>header h1 { position: relative; z-index: 0; width: 200px; top: 80px; left: 40px; font-size: 3.6em; font-family: deliciousbold; }
+body>header span { position: relative; top: 80px; left: 40px; text-transform: uppercase; font-size: 1.4em; }
+
+body>header div { font-size: 1.2em; }
+
+#login_modal { display: block; width: 300px; margin: -18px auto 0 auto; font-size: 1.6em;}
+#login_modal .submit { background: url(../img/loginbtn.png) no-repeat; }
+body>header #register_modal { display: none; width: 300px; margin: 10px 0 0 70px; }
+#register_modal .submit { background: url(../img/registerbtn.png) no-repeat; }
+
+.modal { position: relative; z-index: 10; background: #eef0f0; border-radius: 7px; padding: 10px 10px 0 10px; margin: 10px 0 20px -10px; border: 1px solid #d0d0d0; box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.3); }
+.modal h3 { font-family: "lobster"; font-size: 1.6em; margin: 0px 0 20px 0; }
+.modal input { display: block; width: 95%; height: 20px; padding: 5px; font-size: 1em; font-family: delicious; font-style: italic; color: #c0c0c0; margin: 0 0 10px 0; }
+.modal input.submit { display: block; border: 0; width: 62px; height: 28px; text-indent: -9999pt; float: right; box-shadow: 0; }
+.modal a { font-size: .6em; margin: 5px 0 0 0; text-align: right; width: 70%; display: block; float: left; }
+.modal .close { position: absolute; top: 10px; right: 20px; font-size: 1em; text-transform: none; font-family: delicious; }
+.modalarrow { display: block; position: absolute; width: 19px; height: 8px; background: url('../img/modalarrow.png') no-repeat; top: -8px; left: 20px; z-index: 11; border: 0; }
+
+
+#gallery { display: block; margin-top: 0px; padding: 20px; }
+#gallery ul { list-style: none; }
+
+#gallery ul li { position: relative; width: 220px; height: 220px; margin: 30px 0 0 30px; display: block; float: left; background: #fff; }
+#gallery ul li img {  }
+#gallery ul li:after { display: block; content: ''; background: url('../img/photoshadow.png') no-repeat; width: 229px; height: 21px; margin-top: -2px; }
+
+#gallery ul li a.edit_link { position: absolute; top: 5px; right: 5px; }
+
+#main { padding: 20px; width: 97%; margin: 0 auto;  }
+
+table { margin-bottom: 20px; width: 100%; }
+tr { margin: 3px 0; font-size: 1.1em; border: 1px solid #404040;  }
+th { background: #707070; }
+td, th { padding: 4px; text-align: center; width: 100px; border: 1px solid #000; }
+
+#add_user { width: 300px; margin: 0 0 20px 0; }
+#add_user .submit { background: url(../img/registerbtn.png) no-repeat; }
+#add_user a { font-size: 1.3em; }
+
